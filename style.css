@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #647590;
+    display: flex;
+    justify-content: center;
+}
+
+.c-converter{
+    /* width: 25vw; */
+    height: 50vh;
+    background-color: white;
+    margin-top: 25vh;
+    border-radius: 2rem;
+    box-shadow: inset -2px -2px 5px gray,inset 2px 2px 5px gray;
+    padding: 1rem;
+}
+
+h2{
+    text-align: center;
+    color: #647590;
+}
+
+.inputmoney{
+    margin-top: 2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #647590;
+    font-size: 1rem;
+    color: #647590 ;
+    padding-left: 1rem;
+}
+
+.main-section{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section i{
+    margin: 1.6rem 1rem 0 1rem;
+    color: #647590;
+}
+
+.drop-down{
+    display: flex;
+}
+
+.drop-down img{
+    height: 3rem;
+    padding-right: .5rem;
+}
+
+.drop-down select{
+    width: 4rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #647590;
+    font-size: 1rem;
+}
+
+.msg{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem
+}
+
+.btn{
+    width: 80%;
+    margin-left: 10%;
+    padding: .5rem 0 ;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    background-color: #647590;
+    color: white;
+    box-shadow: inset -2px -2px 5px white,inset 2px 2px 5px white;
+    text-transform: capitalize;
+    font-size: 1rem;
+    transition: all .2s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px white,inset 0px 0px 0px white;
+}
